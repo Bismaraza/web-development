@@ -1,4 +1,4 @@
-h1{
+/* h1{
     color: rgb(20, 230, 11);
 }
 button{
@@ -8,4 +8,17 @@ button{
 p{
     background-color: black;
     color:whitesmoke;
+} */
+
+h1{
+    font-family: league Spartan;
+    color: #ffa511;
+    text-align: center;
+    text-size-adjust: 55%;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.5x;
+    text-decoration: double underline teal;
+    text-transform: uppercase;
+
 }

@@ -1,12 +1,17 @@
-h1{
+h1 {
     color: skyblue;
+    text-align: center;
 }
-h3{
-    color:teal;
+
+h3 {
+    color: teal;
+    text-align: center;
+
 }
-h2{
+
+h2 {
     color: darkorange;
-}
-ul{
-    color: darkslategray;
+    text-align: center;
+    text-decoration: blue wavy underline;
+
 }
