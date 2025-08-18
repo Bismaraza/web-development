@@ -1,47 +1,23 @@
-/* h1{
-    color: rgb(20, 230, 11);
-}
-button{
-    background-color:blue;
-    color:white;
-}
-p{
-    background-color: black;
-    color:whitesmoke;
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-h1{
-    font-family: league Spartan;
-    color: #ffa511;
-    text-align: center;
-    font-size: 100%;
-    font-weight: 900;
-    letter-spacing: 2px;
-    line-height: 1.5x;
-    text-decoration: double underline teal;
-    text-transform: uppercase;
-
-} */
-
-h1{
-    text-align: center;
-    color: red;
-    font-family: Georgia;
-    text-decoration: underline;
+h1,
+h3 {
+    color: #f52936;
 }
-p{
-    text-align: center;
-    color: black;
-    font-family: Georgia;
-    line-height: 30px;
-}
-button{
+
+#login {
     background-color: white;
-    color: blueviolet;
 }
-textarea{
-    color: black;
+#signup{
+    color: white;
+    background-color: #f52936;
 }
-span{
-    color:chocolate;
+.upvote {
+    background-color: #f52936;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
 }
