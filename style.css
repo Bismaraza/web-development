@@ -15,7 +15,7 @@ h3 {
     color: white;
     background-color: #f52936;
 }
-    
+
 .upvote {
     background-color: #f52936;
     color: white;
@@ -26,6 +26,7 @@ h3 {
 
 * {
     font-family: 'Courier New', Courier, monospace;
+    text
 }
 
 h1 {
@@ -37,6 +38,6 @@ h1 {
     color: white;
 }
 
-#btn {
+.btn {
     background-color: aqua;
 }
