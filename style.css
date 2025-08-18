@@ -1,4 +1,4 @@
-* {
+/* * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -20,4 +20,21 @@ h3 {
     border: none;
     padding: 5px 10px;
     cursor: pointer;
+} */
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: #1b74e4;
+}
+
+#searchbtn {
+    background-color: black;
+    color: white;
+}
+
+#btn {
+    background-color: aqua;
 }
