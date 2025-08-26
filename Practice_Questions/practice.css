@@ -60,36 +60,35 @@ ul li{
     color:aqua;
 } */
 
-/* Universal Selector */
+/* Universal Selector
 * {
   font-family: Arial, sans-serif;
-}
+} */
 
 /* Descendant Selector */
-nav ul li a {
+/* nav ul li a {
   color: purple;
-}
+} */
 
 /* Child Selector */
-section > p {
+/* section > p {
   color: red;
-}
+} */
 
 /* Adjacent Sibling Selector */
-h2 + p {
+/* h2 + p {
   font-weight: bold;
   color: green;
-}
+} */
 
 /* General Sibling Selector */
-h3 ~ p {
+/* h3 ~ p {
   color: blue;
-}
+} */
 
 /* Class Selector */
-.tagline {
+/* .tagline {
   font-style: italic;
   color: darkorange;
-}
+} */
 
-/* ID Selector Example (try adding an id in HTML and test) */
