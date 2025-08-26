@@ -92,3 +92,46 @@ ul li{
   color: darkorange;
 } */
 
+#mainTopic {
+  color: blue;
+}
+
+* {
+  text-align: center;
+}
+
+.heading {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.para {
+  color: white;
+  background-color: cornflowerblue;
+}
+
+div>button {
+  background-color: purple;
+  color: azure;
+}
+
+button:hover {
+  background-color: yellow;
+  color: black;
+}
+
+button:active {
+  background-color: red;
+  color: white;
+}
+
+p:nth-of-type(2n+1) {
+  color: yellow;
+}
+
+h1::first-letter{
+  color:red;
+}
+
+#yes:checked + label {
+  color: green;
+}
