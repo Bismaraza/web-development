@@ -92,7 +92,7 @@ ul li{
   color: darkorange;
 } */
 
-#mainTopic {
+/* #mainTopic {
   color: blue;
 }
 
@@ -134,4 +134,26 @@ h1::first-letter{
 
 #yes:checked + label {
   color: green;
+} */
+
+/* #outer{
+  height: 200px;
+  width: 70px;
+  border: 2px solid black;
 }
+.inner{
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  margin: 9px;
+  border-radius: 50px;
+}
+#red{
+  background-color: red;
+}
+#yellow{
+  background-color: yellow;
+}
+#green{
+  background-color: green;
+} */
