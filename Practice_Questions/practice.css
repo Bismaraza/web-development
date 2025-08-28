@@ -1,44 +1,13 @@
-.div1{
-  border: 5px solid black;
-  height: 150px;
-  width: 300px;
-  background-color: grey;
-  margin-top: 20px;
-  margin-right: 1em;
-  margin-bottom: 40px;
-  margin-left: 2em;
-  padding: 1em;
-}
-.div2{
+div{
+  color: red;
   border: 2px solid black;
+  width: 200px;
   height: 100px;
-  width: 100px;
-  background-color: pink;
-  border-radius: 50%;
-  display: inline-block;
+  margin: 50px;
+  padding: 20px;
+  background-color: lightblue;
+  transition: ease-in 1s ;
 }
-.div3{
-  border: 2px solid black;
-  height: 100px;
-  width: 100px;
-  background-color: pink;
-  border-radius: 50%;
-  display: inline-block;
-}
-.div4{
-  border: 2px solid black;
-  height: 100px;
-  width: 100px;
-  background-color: pink;
-  border-radius: 50%;
-  display: inline-block;
-}
-.div5{
-  border: 2px solid black;
-  height: 100px;
-  width: 100px;
-  background-color: pink;
-  border-radius: 50%;
-  display: inline-block;
-  
+div:hover{
+  background-color: yellow;
 }
