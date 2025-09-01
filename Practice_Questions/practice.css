@@ -1,13 +1,17 @@
-div{
-  color: red;
-  border: 2px solid black;
-  width: 200px;
+div {
   height: 100px;
-  margin: 50px;
-  padding: 20px;
+  width: 100px;
   background-color: lightblue;
-  transition: ease-in 1s ;
+  border: 2px solid black;
+  margin: 0 auto;
+  opacity: 1;
+  transition: border-radius 2s ease 5s;
+  /* ...existing code... */
 }
-div:hover{
-  background-color: yellow;
+
+div:hover {
+margin: 500px; /* <-- semicolon added */
+  background-color: lightgreen;
+  border-radius: 50%;
+  /* ...existing code... */
 }
