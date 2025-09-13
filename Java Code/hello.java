@@ -21,14 +21,8 @@
 import java.util.*;
 public class hello {
     public static void main(String[] args) {
-//         Scanner scan = new Scanner(System.in);
-//         float a = scan.nextFloat();
-// float area = 3.14f * a * a;
-//         System.out.println(area);
+        
+        int $=24;
 
-//TYpe Casting
-        float a = 25.99f;
-        int b = (int)a ;
-        System.out.println(b);
     }
 }
