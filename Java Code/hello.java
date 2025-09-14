@@ -22,5 +22,12 @@ public class hello {
         public void printColor(){
             System.out.println(this.color);
         }
+        // Non Parameterized Constructor
+        Pen()
+        {
+            System.out.println("Constructor called");
+
+        }
+        
     }
 }
