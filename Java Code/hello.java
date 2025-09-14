@@ -1,28 +1,26 @@
-// import java.util.*;
-
-// public class hello {
-
-//     public static void main(String[] args) {
-//         // calculating sum of two numbers
-//         int a = 4;
-//         int b = 5;
-//         int sum = a + b;
-//         System.out.println(sum);
-
-
-//         Scanner sc = new Scanner(System.in);
-//         System.out.println("Enter your name");
-//         String name = sc.nextLine();
-//         System.out.println("Hello " + name);
-
-//     }
-// }
 
 import java.util.*;
 public class hello {
     public static void main(String[] args) {
-        
-        int $=24;
 
+
+        Pen pen2 = new Pen();
+        pen2.color = "black";
+        pen2.type = "ballpoint";
+        pen2.printColor();
+        pen2.write();
+        
+    }
+   static class Pen{
+        String color;
+        String type;
+
+        public void write(){
+            System.out.println("Writing something");
+        }
+
+        public void printColor(){
+            System.out.println(this.color);
+        }
     }
 }
