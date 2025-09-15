@@ -63,7 +63,7 @@ class Employer extends User {
 }
 
 // ========== Main Application ==========
-class InternshipFinderApp {
+public class InternshipFinderApp {
     public static void main(String[] args) {
         try {
             // Creating Student & Employer
