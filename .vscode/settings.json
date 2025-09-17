@@ -1,3 +1,25 @@
 {
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "xmlComplete.schemaMapping": [
+        {
+            "xmlns": "http://www.w3.org/2001/XMLSchema",
+            "xsdUri": "https://www.w3.org/2001/XMLSchema.xsd"
+        },
+        {
+            "xmlns": "https://github.com/avaloniaui",
+            "xsdUri": "https://raw.githubusercontent.com/rogalmic/vscode-xml-complete/master/test/Avalonia/AvaloniaXamlSchema.xsd"
+        },
+        {
+            "xmlns": "http://schemas.microsoft.com/winfx/2006/xaml/presentation",
+            "xsdUri": "https://raw.githubusercontent.com/rogalmic/vscode-xml-complete/master/test/Wpf/Wpf.xsd"
+        },
+        {
+            "xmlns": "http://www.w3.org/2000/svg",
+            "xsdUri": "https://raw.githubusercontent.com/dumistoklus/svg-xsd-schema/master/svg.xsd https://raw.githubusercontent.com/dumistoklus/svg-xsd-schema/master/xlink.xsd https://raw.githubusercontent.com/dumistoklus/svg-xsd-schema/master/namespace.xsd"
+        },
+        {
+            "xmlns": "http://schemas.microsoft.com/developer/msbuild/2003",
+            "xsdUri": "https://raw.githubusercontent.com/Microsoft/msbuild/master/src/MSBuild/MSBuild/Microsoft.Build.CommonTypes.xsd https://raw.githubusercontent.com/Microsoft/msbuild/master/src/MSBuild/MSBuild/Microsoft.Build.Core.xsd"
+        }
+    ]
 }
