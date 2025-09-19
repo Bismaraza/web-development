@@ -1,4 +1,3 @@
-// File: ProfileOverridingDemo.java
 class User {
     protected String username;
 

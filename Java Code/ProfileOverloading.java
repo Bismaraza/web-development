@@ -1,4 +1,3 @@
-// File: ProfileOverloadingDemo.java
 class Student {
     private String skills;
     private String education;
@@ -37,8 +36,8 @@ public class ProfileOverloading{
         Student s = new Student("Java", "BSCS", "ali@email.com");
 
         // Different ways to update profile
-        s.updateProfile("Java, SQL");
-        s.updateProfile("Java, Python", "BSCS Final Year");
-        s.updateProfile("Java, Spring", "BSCS Final Year", "ali_new@email.com");
+        s.updateProfile("Java, SQL\n");
+        s.updateProfile("Java, Python", "BSCS Final Year\n");
+        s.updateProfile("Java, Spring", "BSCS Final Year", "bisma_new@email.com");
     }
 }
