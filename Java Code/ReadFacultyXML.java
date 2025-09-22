@@ -1,42 +1,37 @@
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.DocumentBuilder;
-import org.w3c.dom.*;
-import java.io.File;
+import javax.xml.parsers.*; //XML parsers
+import org.w3c.dom.*; //DOM (Document Object Model)
+import java.io.File; // XML file load
 
 public class ReadFacultyXML {
     public static void main(String[] args) {
         try {
-            File inputFile = new File("faculty.xml"); // XML file ka path
-            DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-            DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-            Document doc = dBuilder.parse(inputFile);
+            // XML file load
+            File file = new File("faculty.xml");
+            DocumentBuilder builder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
+            Document doc = builder.parse(file);
             doc.getDocumentElement().normalize();
 
-            NodeList nList = doc.getElementsByTagName("employee");
+            // employee nodes
+            NodeList list = doc.getElementsByTagName("employee");
 
-            // Table Header
-            System.out.printf("%-8s %-12s %-8s %-15s %-10s %-8s\n",
-                    "ID", "Name", "Salary", "Dept_Name", "Building", "Budget");
-            System.out.println("-------------------------------------------------------------------------------");
+            // Header
+            System.out.println("ID | Name | Salary | Dept_Name | Building | Budget");
 
-            // Table Rows
-            for (int temp = 0; temp < nList.getLength(); temp++) {
-                Node nNode = nList.item(temp);
-                if (nNode.getNodeType() == Node.ELEMENT_NODE) {
-                    Element e = (Element) nNode;
-                    System.out.printf("%-8s %-12s %-8s %-15s %-10s %-8s\n",
-                            e.getElementsByTagName("ID").item(0).getTextContent(),
-                            e.getElementsByTagName("name").item(0).getTextContent(),
-                            e.getElementsByTagName("salary").item(0).getTextContent(),
-                            e.getElementsByTagName("dept_name").item(0).getTextContent(),
-                            e.getElementsByTagName("building").item(0).getTextContent(),
-                            e.getElementsByTagName("budget").item(0).getTextContent()
-                    );
-                }
+            // Rows
+            for (int i = 0; i < list.getLength(); i++) {
+                Element emp = (Element) list.item(i);
+                String id = emp.getElementsByTagName("ID").item(0).getTextContent();
+                String name = emp.getElementsByTagName("name").item(0).getTextContent();
+                String salary = emp.getElementsByTagName("salary").item(0).getTextContent();
+                String dept = emp.getElementsByTagName("dept_name").item(0).getTextContent();
+                String building = emp.getElementsByTagName("building").item(0).getTextContent();
+                String budget = emp.getElementsByTagName("budget").item(0).getTextContent();
+
+                System.out.println(id + " | " + name + " | " + salary + " | " + dept + " | " + building + " | " + budget);
             }
 
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println("Error: " + e.getMessage());
         }
     }
 }
