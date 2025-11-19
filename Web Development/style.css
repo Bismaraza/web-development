@@ -20,3 +20,12 @@ h1 {
 .follow{
     color:red;
 }
+span button{
+    background-color: orange;
+    color:whitesmoke;
+}
+
+p+h3{
+    text-decoration: underline;
+}
+
