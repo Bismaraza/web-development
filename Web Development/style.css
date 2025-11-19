@@ -1,6 +1,13 @@
 h2{
     color: rgb(9, 181, 64);
+    font-size: 20px;
+    font-family: Helvetica;
+    
 }
 button{
     color:red;
+}
+h1{
+
+text-align: center;
 }
