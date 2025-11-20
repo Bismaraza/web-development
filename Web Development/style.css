@@ -29,3 +29,14 @@ p+h3{
     text-decoration: underline;
 }
 
+button:hover {
+    color: white;
+    background-color: black;
+}
+button:active {
+    background-color: grey;
+}
+
+input[type="radio"]:checked + label {
+ color: rgb(238, 0, 255);
+}
