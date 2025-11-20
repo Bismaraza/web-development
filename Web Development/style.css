@@ -58,15 +58,21 @@ color: black;
     color:red;
     font-style: Gorgia;
 }
-.para{
+/* .para{
     background-color: cornflowerblue;
     color:white;
-}
+} */
 
 div button:hover{
     background-color: yellow;
     color:azure;
 }
-.para:nth-of-type(3){
+p:nth-of-type(2n+1){
     font-size: 20px;
+}
+p::first-letter{
+    color:red;
+}
+p{
+    background-color: lightgrey;
 }
