@@ -88,24 +88,27 @@ margin: 100px;
     
 } */
 
-#outer{
-    height: 200px;
-    width: 70px;
-    border: 2px solid black ;
+div{
+    height: 150px;
+    width: 300px;
+    background-color: grey;
+    border: 5px black dotted;
+    margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    margin-left: 2em;
+    padding: 1em;
+
+
 }
+
 .inner{
-    height:50px;
-    width: 50px;
-    border: 2px sold black;
-    margin:10px;
+    height: 100px;
+    width:100px
+    border: 2px solid black;
     border-radius: 50%;
+    display:inline-block;
 }
-#red{
-    background-color: red;
-}
-#blue{
-    background-color: blue;
-}
-#yellow{
-    background-color: yellow;
+.bullets{
+    display:inline;
 }
