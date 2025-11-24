@@ -51,29 +51,14 @@ background-color: yellow;
 color: black;
 } */
 
-<<<<<<< HEAD
 /* * {
     text-align: center;
 }
-=======
-*{
-   text-align: center;
-}
-#mainTopic{
-    color:red;
-    font-style: Gorgia;
-}
-/* .para{
-    background-color: cornflowerblue;
-    color:white;
-} */
->>>>>>> ac4c23f8471351d536eb61d13f2f9a8be4e0eea8
 
 #mainTopic {
     color: red;
     font-style: Gorgia;
 }
-<<<<<<< HEAD
 
 .para {
     background-color: cornflowerblue;
@@ -89,26 +74,38 @@ div button:hover {
     font-size: 20px;
 } */
 
-div {
+/* div {
     height: 200x;
 
     width: 500px;
-
+margin: 100px;
     border-width: 5px;
     border-style: solid;
     border-color: rgb(21, 255, 0);
     background-color: pink;
     border-left: dashed rgb(255, 140, 0);
-    border-radius: 20px;
+    border-radius: 10px;
     
-=======
-p:nth-of-type(2n+1){
-    font-size: 20px;
+} */
+
+#outer{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black ;
 }
-p::first-letter{
-    color:red;
+.inner{
+    height:50px;
+    width: 50px;
+    border: 2px sold black;
+    margin:10px;
+    border-radius: 50%;
 }
-p{
-    background-color: lightgrey;
->>>>>>> ac4c23f8471351d536eb61d13f2f9a8be4e0eea8
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#yellow{
+    background-color: yellow;
 }
